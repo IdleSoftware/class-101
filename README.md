@@ -27,12 +27,9 @@ git clone thisurl.com
 cd ~/workspace/class-101
 
 # Create a local branch
-git checkout -b YourNameHere
+git checkout -b BRANCH_NAME
 
 # Push your branch to GitHub
-git commit . -m "Initial"
-
-git push
+git push --set-upstream origin BRANCH_NAME
 ```
-
 
